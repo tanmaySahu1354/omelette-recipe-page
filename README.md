@@ -42,7 +42,7 @@ project/
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/omelette-recipe-page.git
+   git clone https://github.com/tanmaySahu1354/omelette-recipe-page.git
    ```
 2. Open the folder in your code editor.
 3. Open `index.html` in a browser — that's it!
