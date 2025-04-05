@@ -50,3 +50,10 @@ project/
 ## ✍️ Author
 
 Made with 💛 by **Tanmay Sahu**
+---
+
+## 🎨 Design Credit
+
+This project is based on the [Frontend Mentor Recipe Page Challenge](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
+
+Challenge provided by [Frontend Mentor](https://www.frontendmentor.io) — a great platform to improve your front-end skills through real-world projects.
