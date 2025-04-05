@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'Young Serif';
+  src: url('../assets/font/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/font/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #f3e5d8;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: #ffffff;
+  color: #4f4f4f;
+  width: 90vw;
+  max-width: 800px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  display: block;
+}
+
+.title {
+  font-family: 'Young Serif', serif;
+  font-size: 32px;
+  color: #2e2e2e;
+  margin-top: 24px;
+}
+
+.paragraph {
+  font-size: 16px;
+  margin-top: 16px;
+  line-height: 24px;
+}
+
+.prep {
+  background-color: #fff5fa;
+  padding: 15px 30px;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.prep h3 {
+  color: #a44e79;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.prep li span {
+  font-weight: bold;
+}
+
+.threeParts {
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+.threeParts h2 {
+  color: #854632;
+  padding-bottom: 7px;
+}
+
+.threeParts ul li,
+.threeParts ol li {
+  margin-bottom: 8px;
+}
+
+li::marker {
+  color: #854632;
+}
+
+.instructions li span {
+  font-weight: bold;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.nutrition-section {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table td,
+.table th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table td {
+  color: #4f4f4f;
+}
+
+.table th {
+  color: #854632;
+  font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100%;
+    border-radius: 0;
+    padding: 20px;
+    margin: 0;
+    box-shadow: none;
+    background-color: white; /* Make sure it's full white */
+  }
+
+  .title {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .prep,
+  .threeParts {
+    padding: 15px;
+  }
+
+  .table td,
+  .table th {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
